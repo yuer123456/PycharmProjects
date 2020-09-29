@@ -1,0 +1,16 @@
+login:
+  method: post
+  url: http://l-cuedocker1.dev.cn2.corp.agrant.cn:32097/api/auth/login
+  params: {}
+  json:
+    password: 12345678
+    username: junfeng.li
+
+list:
+  method: post
+  url: http://l-cuedocker1.dev.cn2.corp.agrant.cn:32097/api/instore/list
+  params: {}
+  json:
+    repoId: beijing
+    pageSize: 10
+    pageNumber: 1[
